@@ -13,6 +13,16 @@
       <el-button type="text" icon="el-icon-s-home" style="margin-left: 30px;font-size: 14px;">主页</el-button>
       <el-button type="text" icon="el-icon-platform-eleme" style="margin-left: 30px;font-size: 14px;">资源</el-button>
       <el-button type="text" icon="el-icon-s-help" style="margin-left: 30px;font-size: 14px;">世界</el-button>
+      <div style="display: flex;justify-content: space-around;margin-left: 1700px;">
+        <div>
+          <el-input placeholder="请输入内容" v-model="input3" class="input-with-select">
+            <el-button slot="append" icon="el-icon-search"></el-button>
+          </el-input>
+        </div>
+        <div>
+          <el-avatar icon="el-icon-user-solid" style="margin-left: 50px;"></el-avatar>
+        </div>
+      </div>
     </el-header>
     <el-container>
       <el-main>
